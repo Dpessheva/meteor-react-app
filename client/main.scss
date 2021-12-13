@@ -1,0 +1,66 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+$paragraph-color: #004067;
+$main-green-color: #13a59b;
+$placeholder-color: #7f9299;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     -webkit-print-color-adjust: exact !important; /*Chrome, Safari */
+    color-adjust: exact !important;  /*Firefox*/
+
+}
+
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    font-size: 1rem;
+    font-family: 1.5 'Lato', sans-serif;
+    margin: 2em;
+}
+
+.btn-gender {
+    @extend .btn-outline-dark;
+    width: 3em;
+    border-radius: 2em;
+    border-color: lighten($placeholder-color, 25%) !important;
+
+    &:hover {
+        background: $main-green-color !important;
+        border-color: $main-green-color !important;
+    }
+
+    &:focus,
+    &:active {
+        outline: none !important;
+        border-color: $main-green-color !important;
+    }
+
+    &.active,
+    &.focus {
+        background: $main-green-color !important;
+        border-color: $main-green-color !important;
+    }
+
+    & .btn-gender-icon:hover {
+        color: #fff !important;
+    }
+
+    & .btn-gender-icon:active {
+        color: #fff !important;
+    }
+
+    & .btn-gender-icon:focus {
+        color: #fff !important;
+    }
+
+}
