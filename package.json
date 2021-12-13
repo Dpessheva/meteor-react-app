@@ -38,6 +38,7 @@
     "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^6.4.9",
     "babel-loader": "^8.2.3",
+    "chromatic": "^6.2.0",
     "css-loader": "^6.5.1",
     "sass": "^1.45.0",
     "sass-loader": "^12.4.0",
