@@ -1,0 +1,31 @@
+.btn-gender {
+    width: 4em;
+    border-radius: 2em;
+    border-color: lighten(#7f9299, 25%) !important;
+
+}
+.btn-gender-icon{
+        margin-top:0.2rem;
+}
+ .btn-gender :hover {
+        background: #13a59b !important;
+        border-color: #13a59b !important;
+    }
+
+.btn-gender:focus,
+.btn-gender:active {
+        outline: none !important;
+        border-color:#13a59b !important;
+         background: #13a59b !important;
+        border-color: #13a59b !important;
+}
+
+.btn-gender .btn-gender-icon:hover {
+        color: #fff !important;
+}
+.btn-gender .btn-gender-icon:active {
+        color: #fff !important;
+}
+ .btn-gender .btn-gender-icon:focus {
+        color: #fff !important;
+}
