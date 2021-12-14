@@ -8,7 +8,9 @@
         margin-top:0.2rem;
 }
  .btn-gender :hover {
-        background: #13a59b !important;
+        /* background: #13a59b !important;
+         */
+         background: red;
         border-color: #13a59b !important;
     }
 
